@@ -1,0 +1,218 @@
+2024-07-23T13:41:37.523+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T13:41:37.530+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T13:41:37.555+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T13:41:38.744+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: request error: error connecting: host=adb-589604610353011.11.azuredatabricks.net port=443, httpPath=/sql/1.0/warehouses/eee5557720148726: databricks: request error: open session request error: Post "https://adb-589604610353011.11.azuredatabricks.net:443/sql/1.0/warehouses/eee5557720148726": PERMISSION_DENIED: profiles.dev@rudderstack.com is not authorized to use this SQL Endpoint. Please contact your administrator.: request error after 1 attempt(s): unexpected HTTP status 403 Forbidden
+
+2024-07-23T13:41:38.745+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: request error: error connecting: host=adb-589604610353011.11.azuredatabricks.net port=443, httpPath=/sql/1.0/warehouses/eee5557720148726: databricks: request error: open session request error: Post "https://adb-589604610353011.11.azuredatabricks.net:443/sql/1.0/warehouses/eee5557720148726": PERMISSION_DENIED: profiles.dev@rudderstack.com is not authorized to use this SQL Endpoint. Please contact your administrator.: request error after 1 attempt(s): unexpected HTTP status 403 Forbidden
+
+2024-07-23T13:41:38.745+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: request error: error connecting: host=adb-589604610353011.11.azuredatabricks.net port=443, httpPath=/sql/1.0/warehouses/eee5557720148726: databricks: request error: open session request error: Post "https://adb-589604610353011.11.azuredatabricks.net:443/sql/1.0/warehouses/eee5557720148726": PERMISSION_DENIED: profiles.dev@rudderstack.com is not authorized to use this SQL Endpoint. Please contact your administrator.: request error after 1 attempt(s): unexpected HTTP status 403 Forbidden
+
+2024-07-23T13:41:38.747+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: request error: error connecting: host=adb-589604610353011.11.azuredatabricks.net port=443, httpPath=/sql/1.0/warehouses/eee5557720148726: databricks: request error: open session request error: Post "https://adb-589604610353011.11.azuredatabricks.net:443/sql/1.0/warehouses/eee5557720148726": PERMISSION_DENIED: profiles.dev@rudderstack.com is not authorized to use this SQL Endpoint. Please contact your administrator.: request error after 1 attempt(s): unexpected HTTP status 403 Forbidden
+
+2024-07-23T14:56:20.416+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T14:56:20.425+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T14:56:20.447+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T14:56:23.522+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:56:23.522+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:56:23.522+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:56:23.522+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:58:44.305+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T14:58:44.312+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T14:58:44.336+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T14:58:47.135+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:58:47.136+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:58:47.136+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T14:58:47.136+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:00:14.123+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:00:14.132+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:00:14.155+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:00:18.333+0530	ERROR	core/projectLoad.go:395	setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T15:00:18.333+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T15:00:18.333+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T15:38:16.109+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:38:16.134+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:38:16.192+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:38:28.247+0530	ERROR	core/projectLoad.go:395	setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T15:38:28.250+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T15:38:28.251+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T15:43:07.464+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:43:07.488+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:43:07.553+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:44:28.504+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:44:28.506+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:44:28.506+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:44:28.506+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:44:51.759+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:44:51.782+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:44:51.839+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:45:44.462+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:45:44.464+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:45:44.464+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:45:44.464+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:46:20.774+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:46:20.856+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:46:21.006+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:46:58.032+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:46:58.032+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:46:58.032+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:46:58.032+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:47:22.948+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:47:22.974+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:47:23.030+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T15:48:06.640+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:48:06.642+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:48:06.643+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T15:48:09.518+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:11:08.304+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:11:08.327+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:11:08.385+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:11:17.281+0530	ERROR	core/projectLoad.go:395	setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T16:11:17.283+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T16:15:10.873+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T16:15:21.750+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:15:21.772+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:15:21.830+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:15:49.219+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:15:49.270+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:16:24.659+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:16:24.665+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:16:30.291+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:16:30.315+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:16:30.374+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:17:09.271+0530	ERROR	core/projectLoad.go:426	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:17:09.276+0530	ERROR	core/projectLoad.go:395	getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:17:09.276+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:17:09.277+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: getting connection client for connection databricks: unable to fetch client from factory for type: databricks, err: checking if unity catalog is available: databricks: execution error: failed to execute query: unexpected operation state ERROR_STATE: [INSUFFICIENT_PERMISSIONS] Insufficient privileges:
+User does not have USE CATALOG on Catalog 'profiles'. SQLSTATE: 42501
+
+2024-07-23T16:17:24.491+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:17:24.512+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T16:17:24.571+0530	WARN	base/material.go:399	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T21:03:41.918+0530	ERROR	core/projectLoad.go:395	setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T21:03:41.928+0530	ERROR	core/projectLoad.go:673	getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T21:03:41.929+0530	ERROR	validate/access.go:48	getting run context api: error getting timed context: getting project env for dev-dbs: setting current schema for env dev-dbs: executing sql: databricks: execution error: failed to execute query: Error running query: [UNAUTHORIZED_ACCESS] com.databricks.sql.managedcatalog.acl.UnauthorizedAccessException: PERMISSION_DENIED: User does not have USE SCHEMA on Schema 'profiles.rs_profiles'.
+
+2024-07-23T08:48:50.195-0700	ERROR	run/run.go:69	creating project api: loading project: could not create project: failed to read project yaml 
+Error: connection 'test' not found
+
+2024-07-23T08:49:35.229-0700	WARN	base/material.go:394	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T08:49:35.238-0700	WARN	base/material.go:394	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-07-23T08:49:39.068-0700	INFO	core/project.go:2111	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 5'.
+
+2024-07-23T08:49:39.383-0700	ERROR	run/run.go:101	calling run api: getting result list: executing query: 002003 (02000): SQL compilation error:
+Database 'PROFILES' does not exist or not authorized.
+
