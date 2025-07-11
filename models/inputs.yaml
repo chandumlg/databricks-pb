@@ -11,7 +11,7 @@ inputs:
         - name: anonymous_id
         - name: email
     app_defaults:
-      table: profiles.rs_profiles.demo_rs_identifies
+      table: profiles.rs_profiles.demo_rs_identifiess
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
