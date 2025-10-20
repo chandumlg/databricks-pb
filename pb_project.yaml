@@ -3,7 +3,7 @@ name: sample_attribution
 # Project's yaml schema version
 schema_version: 69
 # WH Connection to use.
-connection: test
+connection: schandudb
 # Model folders to use.
 model_folders:
   - models
@@ -16,7 +16,6 @@ entities:
     id_stitcher: models/user_id_stitcher
     id_types:
       - user_id
-      - temp_id
       - anonymous_id
       - email
     feature_views:
